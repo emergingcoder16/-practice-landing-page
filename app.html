@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLanet shop</title>
+    <style>
+        *{
+           margin: auto; 
+           padding: 1px;
+           box-sizing: border-box;
+           color:white;
+           font-weight: bold;
+
+             
+        }
+        body{
+            background-color: brown;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        header{
+            height:50px;
+            display:flex;
+            justify-content: space-around;
+            align-items:center ;
+            border-bottom: 70px solid black;
+
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            padding-top: 20px;
+        }
+        ul li a{
+            margin: 0 5px;
+        
+            border: 2px solid white;
+            padding:0px 10px;
+            
+            text-decoration:none;
+            border-radius: 50px;
+        }
+        ul li a:hover{
+
+            background-color: rgb(243, 145, 103);
+        }
+        .logo{
+           border:2px solid white;
+           padding: 10px 5px;
+        }
+        .home{
+            background-color: rgb(222, 35, 35);
+            color: black;
+            border-radius: 50px;
+            border: 2px solid white;
+        }
+        main{
+            display: flex;
+            height: 90vh;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 0px 150px;
+            flex-wrap: wrap;
+        }
+        main h2{
+            font-size: 30px;
+
+        }
+        main p{
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            margin: 30px;
+        }
+        .left{
+            flex: 1;
+            padding-right: 20px;
+        }
+        .mid{
+            flex: 2;
+        }
+
+        .right{
+            flex: 1;
+        }
+        .merc{
+            height: 330pxpx;
+            width: 350px;
+            padding-left: 30px;
+        }
+        .btn{
+            border: 2px solid white;
+            border-radius: 50px;
+            color: black;
+            border: 1px solid black;
+            width: 100px;
+            
+        }
+        .btn:hover{
+            background-color: rgb(162, 115, 115);
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">LOGO</div>
+        <NAV><ul>
+             <li><a href="#"> HOME</a></li>
+             <li><a href="#"> OFFERS</a></li>
+
+             <li><a href="#"> BUY NOW</a></li>
+
+             <li><a href="#"> SELL NOW</a></li>
+
+             <li><a href="#"> ABOUT US</a></li>
+
+             <li class="home"><a href="#"> SIGN UP</a></li>
+
+        </ul></NAV>
+    </header>
+    <main>
+        <div class="left">
+            <h2>Mercury</h2>
+        </div>
+        <div class="mid"> 
+            <p>Mercury is the first planet from the Sun and the smallest in the Solar System.<br> In English, it is named after the ancient Roman god Mercurius (Mercury), god of commerce and communication, and the messenger of the gods.<br> Mercury is classified as a terrestrial planet, with roughly the same surface gravity as Mars</p>
+            <button class="btn"> Buy Now</button> 
+        
+        </div>
+
+  
+        <div class="right">
+            <img src="mercury.png" class="merc">
+        </div>
+  
+    </main>
+</body>
+</html>
